@@ -3,3 +3,4 @@ WORKDIR /javaapp
 COPY ./target/demo-0.0.1-SNAPSHOT.jar app.jar
 CMD [ "java", "-jar", "app.jar" ]
 #THIS IS A TEST CHANGE
+#THIS IS CHANGE 2
